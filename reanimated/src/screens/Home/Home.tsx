@@ -5,13 +5,14 @@
  * @copyright     Copyright (c) 2025, GETFLY VN TECH.,JSC
  */
 import React, { useCallback } from "react";
-import { Button } from "react-native";
+import { Button, Text } from "react-native";
 import Animated, {
   Easing,
   ReduceMotion,
   useSharedValue,
   withTiming,
 } from "react-native-reanimated";
+import { WithTiming } from "./withTiming";
 
 const Home = () => {
   const width = useSharedValue<number>(200);
@@ -36,14 +37,15 @@ const Home = () => {
     <Animated.View
       style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
     >
-      <Button title="Hello" onPress={startAnimation} />
+      {/* <Button title="Hello" onPress={startAnimation} />
       <Animated.View
         style={{
           backgroundColor: backgroundColor,
           height: height,
           width: width,
         }}
-      />
+      /> */}
+      <WithTiming />
     </Animated.View>
   );
 };

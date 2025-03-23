@@ -1,0 +1,10 @@
+/*
+ * @description
+ * @since         Sunday, 3 23rd 2025, 20:59:45 pm
+ * @author        Vũ Đại Dương <duongvd@getflycrm.com>
+ * @copyright     Copyright (c) 2025, GETFLY VN TECH.,JSC
+ */
+
+#withTiming
+- What mean ?: Chuyển đổi giá trị của một shareValue sử dụng useShareValue đến một giá trị đích(toValue)
+trong một khoảng thời gian xác định, tạo ra hiệu ứng animation sử dụng duration, và hàm easing
