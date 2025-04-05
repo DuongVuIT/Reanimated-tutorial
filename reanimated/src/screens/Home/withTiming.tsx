@@ -35,7 +35,7 @@ export const WithTiming = () => {
   }));
   const handleOnPress = () => {
     translateY.value = withTiming(translateY.value === 0 ? 150 : 0, {
-      duration: 500,
+      duration: 600,
     });
   };
   return (
